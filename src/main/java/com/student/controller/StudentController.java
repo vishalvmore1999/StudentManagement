@@ -26,6 +26,7 @@ public class StudentController {
 	public String listStudents(Model model) {
 		model.addAttribute("students", studentService.getAllStudents());
 		return "students";
+		//commit done
 	}
 	
 	@GetMapping("/students/new")
