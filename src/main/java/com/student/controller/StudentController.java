@@ -74,5 +74,6 @@ public class StudentController {
 	public String deleteStudent(@PathVariable Long id) {
 		studentService.deleteStudentById(id);
 		return "redirect:/students";
+		//code for Delete Student details service
 	}	
 }
